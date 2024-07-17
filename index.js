@@ -37,7 +37,7 @@ const main = async () => {
             },
             {
                 name: "amount",
-                message: chalk.bgCyanBright("Enter Your Amount"),
+                message: "Enter Your Amount",
                 type: "number",
                 validate: (value) => value > 0 ? true : 'Amount must be a positive number',
             },
